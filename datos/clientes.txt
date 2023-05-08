@@ -1,4 +1,4 @@
-allison serna;serna2323;123;123;1023629824;allisonsernalopera@gmail.com;cual es mi nombre;allison;cual es mi edad;16 años;cual es mi color favorito;el rosado y morado
-allison;serna;123;123;123;a;a;a;aa;a;a;a
-a;a;123;123;a;a;a;a;a;a;a;a
-a;a;123;123;a;a;a;a;a;a;a;a
+allison serna;serna2323;123;1023629824;allisonsernalopera@gmail.com;cual es mi nombre;allison;cual es mi edad;16 años;cual es mi color favorito;el rosado y morado
+allison;serna;123;123;a;a;a;aa;a;a;a
+a;a;123;123;a;a;a;a;a;a;a
+a;a;123;123;a;a;a;a;a;a;a
