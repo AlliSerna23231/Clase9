@@ -2,3 +2,4 @@ Sara Serna;SernaS;123;1002632848;sara@gmail.com;color;rosa;año;2023;cancion;hos
 Luis Flores;luis23;8475;1002633134;luisflor33s@gmail.com;color;negro;año;2004;serie;you
 Sofia Castro;castro13;1980;1002634002;castrosaa@gmail.com;color;azul;amigo;rodrigezz;grupo;bbp
 Kika Nieto;nieto2013;1985;1002634684;nietok@gmail.com;santiago;maye;copo;nieve;self;you
+Tutankamon;Tanka2014;2014;1002362927;tankaelguapo@gmail.com;color;cafe;nacio;2013;hogar;familia
