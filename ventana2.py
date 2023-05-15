@@ -5,6 +5,7 @@ from PyQt5.QtGui import QPixmap, QFont
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QLabel, QVBoxLayout,  QScrollArea, QWidget, QGridLayout, QButtonGroup, QPushButton
 from PyQt5 import QtGui
 
+from ventana3 import Ventana3
 from cliente import Cliente
 
 
@@ -175,6 +176,18 @@ class Ventana2(QMainWindow):
 
         self.botones.idClicked.connect(self.metodo_accionBotones)
 
+        # ---Boton Forma Tabular---
+
+        self.botonFormaTabular = QPushButton("Forma Tabular ")
+        self.botonFormaTabular.setFixedWidth(100)
+        self.botonFormaTabular.setStyleSheet("Background-color: #A22F88;"
+                                       "color: #000000;"
+                                       "padding: 10px;"
+                                       "margin-top: 10px;"
+                                       )
+        self.botonFormaTabular.clicked.connect(self.metodo_accionFormaTabular)
+        self.vertical.addWidget(self.botonFormaTabular)
+
         # ---Boton Volver---
 
         self.botonVolver = QPushButton("Volver")
@@ -195,9 +208,15 @@ class Ventana2(QMainWindow):
 
     def metodo_accionBotones(self, cedulaUsuario):
         print(cedulaUsuario)
+    def metodo_accionFormaTabular(self):
+        self.hide()
+        self.ventana3 = Ventana3(self)
+        self.ventana3.show()
+
     def metodo_botonVolver(self):
         self.hide()
         self.ventanaAnterior.show()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
