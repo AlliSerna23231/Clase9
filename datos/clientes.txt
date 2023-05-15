@@ -1,9 +1,6 @@
 allison serna;serna2323;123;1023629824;allisonsernalopera@gmail.com;cual es mi nombre;allison;cual es mi edad;16 años;cual es mi color favorito;el rosado y morado
-allison;serna;123;123;a;a;a;a;a;a;a
-a;a;123;123;a;a;a;a;a;a;a
-a;a;123;123;a;a;a;a;a;a;a
 Aleja;Ale2;2311;1234567890;Ale2221;Color;pink;favorite crime;you;doja;cat
 Luisa;Lul;2023;3021456789;Lul23;Billie;hostage;give more;ok;potato;papa
 Samantaha Serna;Sami23;sami23;3204463002;Samanthalasmas_viral;Nombre;Sam;Número del año;2023;Mejor amigo;Piedrahita
 Maria Camila;Cami231;8571;12345678902;Camila@gmail.com;color;rojo;mascota;lulu;mascota 2;lupita
-Alex;Alex23;1234;1023456789;alex@gmail;a;a;a;a;a;a
+
