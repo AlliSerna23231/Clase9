@@ -175,13 +175,29 @@ class Ventana2(QMainWindow):
 
         self.botones.idClicked.connect(self.metodo_accionBotones)
 
+        # ---Boton Volver---
+
+        self.botonVolver = QPushButton("Volver")
+        self.botonVolver.setFixedWidth(90)
+        self.botonVolver.setStyleSheet("Background-color: #A22F88;"
+                                       "color: #000000;"
+                                       "padding: 10px;"
+                                       "margin-top: 10px;"
+                                       )
+        self.botonVolver.clicked.connect(self.metodo_botonVolver)
+
+        self.vertical.addWidget(self.botonVolver)
+
+
         # ---------------OJO IMPORTANTE PONER AL FINAL-----------
         # Indicamos que el layout principal del fondo es vertical
         self.fondo.setLayout(self.vertical)
 
     def metodo_accionBotones(self, cedulaUsuario):
         print(cedulaUsuario)
-
+    def metodo_botonVolver(self):
+        self.hide()
+        self.ventanaAnterior.show()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
