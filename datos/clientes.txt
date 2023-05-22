@@ -3,3 +3,4 @@ Luis Flores;luis23;8475;1002633134;luisflor33s@gmail.com;color;negro;año;2004;s
 Sofia Castro;castro13;1980;1002634002;castrosaa@gmail.com;color;azul;amigo;rodrigezz;grupo;bbp
 Kika Nieto;nieto2013;1985;1002634684;nietok@gmail.com;santiago;maye;copo;nieve;self;you
 Tutankamon;Tanka2014;2014;1002362927;tankaelguapo@gmail.com;color;cafe;nacio;2013;hogar;familia
+Monika Restrepo;moni;1234;1003698457;monika@gmail.com;a;a;a;a;a;a
