@@ -153,7 +153,8 @@ class Ventana2(QMainWindow):
 
                     self.verticalCuadricula = QVBoxLayout()
 
-                    self.botonAccion = QPushButton(self.usuarios[self.contador].documento)
+
+                    self.botonAccion = QPushButton(self.usuarios[self.contador].nombreCompleto)
 
                     self.botonAccion.setFixedWidth(150)
 

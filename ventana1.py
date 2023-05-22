@@ -479,7 +479,7 @@ class Ventana1(QMainWindow):
                     lista[10],
                 )
                 # metemos el objeto en la lista de usuarios:
-                usuarios.append(u)
+                self.usuarios.append(u)
 
             # cerramos el archivo
             self.file.close()
