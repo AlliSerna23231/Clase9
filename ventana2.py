@@ -6,6 +6,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QDesktopWidget, QLabel, Q
 from PyQt5 import QtGui
 
 from ventana3 import Ventana3
+from ventana4 import Ventana4
 from cliente import Cliente
 
 
@@ -153,12 +154,13 @@ class Ventana2(QMainWindow):
 
                     self.verticalCuadricula = QVBoxLayout()
 
-                    self.botonAccion = QPushButton(self.usuarios[self.contador].documento)
+
+                    self.botonAccion = QPushButton(self.usuarios[self.contador].nombreCompleto)
 
                     self.botonAccion.setFixedWidth(150)
 
                     self.botonAccion.setStyleSheet("Background-color: #A22F88;"
-                                                   "color: #000000;"
+                                                   "color: #FFFFFF;"
                                                    "padding: 10px;"
                                                    )
 
@@ -181,7 +183,7 @@ class Ventana2(QMainWindow):
         self.botonFormaTabular = QPushButton("Forma Tabular ")
         self.botonFormaTabular.setFixedWidth(100)
         self.botonFormaTabular.setStyleSheet("Background-color: #A22F88;"
-                                       "color: #000000;"
+                                       "color: #FFFFFF;"
                                        "padding: 10px;"
                                        "margin-top: 10px;"
                                        )
@@ -193,7 +195,7 @@ class Ventana2(QMainWindow):
         self.botonVolver = QPushButton("Volver")
         self.botonVolver.setFixedWidth(90)
         self.botonVolver.setStyleSheet("Background-color: #A22F88;"
-                                       "color: #000000;"
+                                       "color: #FFFFFF;"
                                        "padding: 10px;"
                                        "margin-top: 10px;"
                                        )
@@ -207,7 +209,10 @@ class Ventana2(QMainWindow):
         self.fondo.setLayout(self.vertical)
 
     def metodo_accionBotones(self, cedulaUsuario):
-        print(cedulaUsuario)
+        #print(cedulaUsuario)
+        self.hide()
+        self.ventana4 = Ventana4(self, cedulaUsuario)
+        self.ventana4.show()
     def metodo_accionFormaTabular(self):
         self.hide()
         self.ventana3 = Ventana3(self)
